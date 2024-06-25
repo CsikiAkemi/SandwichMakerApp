@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "white bread",
+        "type": "baked goods",
+        "imgUrl": ".\\img\\bread (1).png",
+        "price": 500
+    },
+    {
+        "id": 2,
+        "name": "brown bread",
+        "type": "baked goods",
+        "imgUrl": ".\\img\\bread (2).png",
+        "price": 600
+    },
+    {
+        "id": 3,
+        "name": "butter",
+        "type": "base",
+        "imgUrl": ".\\img\\butter (1).png",
+        "price": 100
+    },
+    {
+        "id": 4,
+        "name": "jam",
+        "type": "base",
+        "imgUrl": ".\\img\\jam.png",
+        "price": 150
+    },
+    {
+        "id": 5,
+        "name": "peanut_butter",
+        "type": "base",
+        "imgUrl": ".\\img\\peanut-butter.png",
+        "price": 200
+    },
+    {
+        "id": 6,
+        "name": "pork_ham",
+        "type": "topping",
+        "imgUrl": ".\\img\\ham.png",
+        "price": 400
+    },
+    {
+        "id": 7,
+        "name": "chicken_ham",
+        "type": "topping",
+        "imgUrl": ".\\img\\ham (1).png",
+        "price": 300
+    },
+    {
+        "id": 8,
+        "name": "gouda",
+        "type": "topping",
+        "imgUrl": ".\\img\\cheese_7219954.png",
+        "price": 450
+    },
+    {
+        "id": 9,
+        "name": "emental",
+        "type": "topping",
+        "imgUrl": ".\\img\\cheese.png",
+        "price": 450
+    },
+    
+    {
+        "id": 10,
+        "name": "tomato",
+        "type": "topping",
+        "imgUrl": ".\\img\\tomato.png",
+        "price": 200
+    },
+    {
+        "id": 11,
+        "name": "salad",
+        "type": "topping",
+        "imgUrl": ".\\img\\salad.png",
+        "price": 50
+    },
+    {
+        "id": 12,
+        "name": "avocado",
+        "type": "topping",
+        "imgUrl": ".\\img\\avocado.png",
+        "price": 300
+    },
+    {
+        "id": 13,
+        "name": "mayonnaise",
+        "type": "souse",
+        "imgUrl": ".\\img\\mayonnaise.png",
+        "price": 50
+    },
+    {
+        "id": 14,
+        "name": "ketchup",
+        "type": "souse",
+        "imgUrl": ".\\img\\ketchup.png",
+        "price": 50
+    }
+
+]

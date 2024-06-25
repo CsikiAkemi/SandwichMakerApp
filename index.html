@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SandwichApp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="title">Sandwich Maker</div>
+                <div class="icon-cart">
+                    <svg
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewbox="0 0 18 20">
+                        <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                    </svg>
+                    <span class="icon-cart-quantity">0</span>
+                    <span class="icon-cart-total">0 Ft</span>
+                </div>
+            </header>
+            <div class="listProduct"></div>
+        </div>
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart"></div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">Check Out</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="previousButton">Previous</button>
+            <button class="nextButton">Next</button>
+        </div>
+        <div class="chechkOutUi">
+            <form id="form" class="form" action="">
+                <h2>Personal details!</h2>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" placeholder="Enter username">
+                    <small id="small">Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="Enter email">
+                    <small id="small">Error message</small>
+                </div>
+                <div id="errorMessages"></div>
+                <button id="submit">Submit</button>
+                <button id="back">Back</button>
+            </form>
+        </div>
+        <div class="cartContainer" style="display: none;">
+            <h2>Shopping Cart</h2>
+            <div id="cartUser"></div>
+            <div id="cartItems"></div>
+            <div id="cartTotal"></div>
+        </div>
+        <script type="module" src="index.js"></script>
+        <script type="module" src="js/productDataGet.js"></script>
+        <script type="module" src="js/product.js"></script>
+        <script type="module" src="js/cart.js"></script>
+        <script type="module" src="js/UiHandler.js"></script>
+    </body>
+</html>
